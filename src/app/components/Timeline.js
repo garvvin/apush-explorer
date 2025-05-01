@@ -52,6 +52,8 @@ export default function Timeline({}) {
     const handleWheel = (e) => {
       e.preventDefault();
 
+      x.stop();
+
       const delta = e.deltaY;
       const currentX = x.get();
       let nextX = currentX - delta;

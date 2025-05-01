@@ -35,6 +35,11 @@ export default function KeyEvents({ startYear, totalYears, timelineWidth }) {
       year: 1585,
       name: "Roanoke Colony established",
     },
+    {
+      year: 1600,
+      name: "Sugar and tobacco plantations develop in Caribbean and South America",
+      style: { transform: "translateY(-120px)" },
+    },
     { year: 1607, name: "Jamestown founded" },
     {
       year: 1619,
@@ -141,6 +146,7 @@ export default function KeyEvents({ startYear, totalYears, timelineWidth }) {
     { year: 2001, name: "9/11 Attacks" },
     { year: 2008, name: "Election of Barack Obama" },
   ];
+
   return (
     <div
       className={styles["key-events"]}
