@@ -1,0 +1,31 @@
+.timeline-drag-container {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.periods-container {
+  display: flex;
+  height: 600px;
+}
+.period-section {
+  height: 100%;
+  padding: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.tick-marks {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.tick-mark {
+  border: solid;
+  border-left-color: gray;
+  border-width: 0 0 0 2px;
+  box-sizing: border-box;
+}
