@@ -23,3 +23,28 @@ body {
 a {
   text-decoration: none;
 }
+
+[data-title]:hover::after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+[data-title]::after {
+  content: attr(data-title);
+  background-color: rgba(228, 228, 228, 0.8);
+  color: #423c33;
+  font-size: 120%;
+  position: absolute;
+  padding: 3px 7px 4px 7px;
+  bottom: -1.6em;
+  left: 100%;
+  white-space: nowrap;
+  box-shadow: 1px 1px 3px #222222;
+  border-radius: 5px;
+  opacity: 0;
+  z-index: 99999;
+  visibility: hidden;
+}
+[data-title] {
+  position: relative;
+}

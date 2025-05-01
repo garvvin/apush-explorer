@@ -21,14 +21,21 @@ export default function Line({ startYear, totalYears, timelineWidth }) {
           return (
             <div
               key={index}
-              className={styles["tick-mark"]}
+              data-title={year}
+              className={styles["tick-mark-container"]}
               style={{
                 width: `${tickWidth}px`,
-                height: year % 10 === 0 ? "7px" : "5px", //longer line for every decade
-                background: "white",
               }}
-              title={year}
-            />
+            >
+              <div
+                className={styles["tick-mark"]}
+                style={{
+                  width: `100%`,
+                  height: year % 10 === 0 ? "7px" : "5px", //longer line for every decade
+                  background: "white",
+                }}
+              />
+            </div>
           );
         })}
       </div>
