@@ -5,6 +5,7 @@
   position: relative;
 }
 
+/*Period styles*/
 .periods-container {
   display: flex;
   height: 600px;
@@ -17,19 +18,45 @@
   overflow: hidden;
 }
 
+/*Tick mark styles*/
 .tick-marks {
   position: absolute;
   left: 0;
   display: flex;
+  z-index: 100;
 }
 .tick-mark-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 30px;
+  position: relative;
 }
 .tick-mark {
   border: solid;
   border-left-color: gray;
   border-width: 0 0 0 2px;
-  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+}
+.tick-label {
+  position: absolute;
+  transform: translateY(30px);
+}
+
+/*Key Event styles*/
+.key-events {
+  position: absolute;
+  left: 0;
+  height: 10px;
+}
+.key-event {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-50%) translateY(-40px);
+  padding: 2px 4px;
+  font-size: 12px;
+  text-align: center;
+  width: 150px;
 }

@@ -8,9 +8,6 @@ export default function Line({ startYear, totalYears, timelineWidth }) {
 
   return (
     <>
-      {/*The actual line*/}
-      <div className={styles.line}></div>
-
       {/*Tick marks for each year*/}
       <div
         className={styles["tick-marks"]}
@@ -30,11 +27,13 @@ export default function Line({ startYear, totalYears, timelineWidth }) {
               <div
                 className={styles["tick-mark"]}
                 style={{
-                  width: `100%`,
-                  height: year % 10 === 0 ? "7px" : "5px", //longer line for every decade
+                  height: year % 10 === 0 ? "7px" : "3px", //longer line for every decade
                   background: "white",
                 }}
               />
+              {year % 10 === 0 ? (
+                <span className={styles["tick-label"]}>{year}</span>
+              ) : null}
             </div>
           );
         })}

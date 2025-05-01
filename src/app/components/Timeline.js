@@ -1,6 +1,6 @@
 "use client";
 import styles from "./Timeline.module.css";
-import { motion } from "motion/react";
+import { motion, useMotionValue } from "motion/react";
 import { useState, useEffect } from "react";
 
 //configuration variables
@@ -28,9 +28,15 @@ const timelineWidth = totalYears * pixelsPerYear;
 //components
 import Period from "./Period";
 import Line from "./Line";
+import KeyEvents from "./KeyEvents";
 
 export default function Timeline({}) {
+  const x = useMotionValue(0);
+
   const [windowWidth, setWindowWidth] = useState(0);
+
+  const maxScroll = -timelineWidth + windowWidth - 70;
+
   useEffect(() => {
     if (typeof window !== "undefined") {
       setWindowWidth(window.innerWidth);
@@ -42,13 +48,33 @@ export default function Timeline({}) {
     }
   }, []);
 
+  useEffect(() => {
+    const handleWheel = (e) => {
+      e.preventDefault();
+
+      const delta = e.deltaY;
+      const currentX = x.get();
+      let nextX = currentX - delta;
+
+      if (nextX > 0) nextX = 0;
+      if (nextX < maxScroll) nextX = maxScroll;
+
+      x.set(nextX);
+    };
+
+    window.addEventListener("wheel", handleWheel, { passive: false });
+
+    return () => window.removeEventListener("wheel", handleWheel);
+  }, [x, maxScroll]);
+
   return (
     <motion.div
       drag="x"
-      dragConstraints={{ left: -timelineWidth + windowWidth - 70, right: 0 }}
+      dragConstraints={{ left: maxScroll, right: 0 }}
       dragElastic={0.2}
       style={{
         width: timelineWidth,
+        x,
       }}
       className={styles["timeline-drag-container"]}
     >
@@ -67,8 +93,16 @@ export default function Timeline({}) {
           );
         })}
       </div>
+
       {/*Render the time _LINE_*/}
       <Line
+        startYear={startYear}
+        totalYears={totalYears}
+        timelineWidth={timelineWidth}
+      />
+
+      {/*Render important timeline events*/}
+      <KeyEvents
         startYear={startYear}
         totalYears={totalYears}
         timelineWidth={timelineWidth}
