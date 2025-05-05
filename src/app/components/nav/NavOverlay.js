@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 import { useState } from "react";
 
 export default function NavOverlay({}) {
-  const [navOpen, setNavOpen] = useState(false);
+  const [navOpen, setNavOpen] = useState(true);
   const toggleNav = () => {
     setNavOpen((prev) => !prev);
   };

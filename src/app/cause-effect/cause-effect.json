@@ -1,0 +1,226 @@
+[
+  { "event": "Wars" },
+  {
+    "event": "French and Indian War (1754–1763)",
+    "causes": [
+      "Disputed Ohio River Valley",
+      "British westward expansion",
+      "French fort building",
+      "Native tribal alliances",
+      "Washington's Fort Necessity clash",
+      "British-French imperial rivalry"
+    ],
+    "effects": [
+      "France lost territory",
+      "Britain gained Canada",
+      "Massive British war debt",
+      "Proclamation of 1763",
+      "Colonial taxation",
+      "Rising colonial anger",
+      "Native uprisings (Pontiac's Rebellion)"
+    ]
+  },
+  {
+    "event": "American Revolution (1775–1783)",
+    "causes": [
+      "British taxation (Stamp Act, Tea Act)",
+      "No representation in Parliament",
+      "Boston Massacre",
+      "Boston Tea Party",
+      "Intolerable Acts",
+      "Enlightenment ideas of liberty"
+    ],
+    "effects": [
+      "U.S. independence",
+      "Treaty of Paris (1783)",
+      "Creation of U.S. government",
+      "Spread of revolutionary ideas",
+      "Economic strain on Britain"
+    ]
+  },
+  {
+    "event": "War of 1812 (1812–1815)",
+    "causes": [
+      "British impressment of U.S. sailors",
+      "British interference with U.S. trade",
+      "Desire to expand into Canada",
+      "Support for Native resistance by Britain"
+    ],
+    "effects": [
+      "Stalemate; no land exchanged",
+      "Increased American nationalism",
+      "End of Federalist Party",
+      "Confirmed U.S. sovereignty",
+      "Native American resistance weakened"
+    ]
+  },
+  {
+    "event": "Mexican-American War (1846–1848)",
+    "causes": [
+      "Annexation of Texas",
+      "Border dispute (Rio Grande vs. Nueces River)",
+      "Manifest Destiny",
+      "Polk's expansionist agenda"
+    ],
+    "effects": [
+      "Treaty of Guadalupe Hidalgo",
+      "U.S. gained Southwest territory",
+      "Increased tensions over slavery expansion",
+      "Strained U.S.-Mexico relations"
+    ]
+  },
+  {
+    "event": "Civil War (1861–1865)",
+    "causes": [
+      "Slavery in new territories",
+      "States' rights vs. federal authority",
+      "Election of Abraham Lincoln",
+      "Secession of Southern states",
+      "Failure of earlier compromises",
+      "Dred Scott decision"
+    ],
+    "effects": [
+      "Abolition of slavery (13th Amendment)",
+      "Massive casualties and destruction",
+      "Reconstruction era",
+      "Stronger federal government",
+      "Civil Rights groundwork laid"
+    ]
+  },
+  {
+    "event": "Spanish-American War (1898)",
+    "causes": [
+      "Cuban rebellion against Spain",
+      "Yellow journalism",
+      "Sinking of USS Maine",
+      "Desire for overseas expansion"
+    ],
+    "effects": [
+      "U.S. gained Puerto Rico, Guam, Philippines",
+      "Cuba gained independence",
+      "Rise of U.S. as a world power",
+      "Debate over imperialism"
+    ]
+  },
+  {
+    "event": "World War I (1914–1918, U.S. 1917–1918)",
+    "causes": [
+      "German unrestricted submarine warfare",
+      "Zimmermann Telegram",
+      "Economic ties with Allies",
+      "Defense of democracy"
+    ],
+    "effects": [
+      "Treaty of Versailles",
+      "League of Nations (U.S. didn't join)",
+      "U.S. returned to isolationism",
+      "Economic boom followed by Great Depression",
+      "Red Scare"
+    ]
+  },
+  {
+    "event": "World War II (1939–1945, U.S. 1941–1945)",
+    "causes": [
+      "Axis expansion (Germany, Japan, Italy)",
+      "Appeasement failures",
+      "Attack on Pearl Harbor",
+      "Rise of totalitarian regimes"
+    ],
+    "effects": [
+      "Allied victory",
+      "Creation of United Nations",
+      "Cold War began",
+      "U.S. became a superpower",
+      "Holocaust awareness increased",
+      "Use of atomic bombs"
+    ]
+  },
+  {
+    "event": "Cold War (1947–1991)",
+    "causes": [
+      "Ideological conflict (capitalism vs. communism)",
+      "Soviet expansion in Eastern Europe",
+      "Arms race and nuclear tension",
+      "Distrust from WWII alliance breakdown"
+    ],
+    "effects": [
+      "NATO and Warsaw Pact formed",
+      "Korean and Vietnam Wars",
+      "Space Race",
+      "Fall of Berlin Wall",
+      "Collapse of Soviet Union",
+      "U.S. emerged as sole superpower"
+    ]
+  },
+  { "event": "Others" },
+  {
+    "event": "Industrial Revolution (late 18th century – early 19th century)",
+    "causes": [
+      "Technological innovations (steam engine, mechanized cotton spinning)",
+      "Access to natural resources (coal, iron)",
+      "Labor supply from rural migration",
+      "Increase in trade and demand for goods",
+      "Inventions in transportation (railroads, steamships)"
+    ],
+    "effects": [
+      "Urbanization and growth of factories",
+      "Rise of industrial cities",
+      "Improved transportation networks",
+      "Labor unions formed",
+      "Environmental degradation",
+      "Expansion of global trade"
+    ]
+  },
+  {
+    "event": "Market Revolution (early 19th century)",
+    "causes": [
+      "Improved transportation (canals, railroads)",
+      "Invention of the telegraph",
+      "Growth of banking and credit systems",
+      "Increase in demand for goods",
+      "Expansion of domestic markets"
+    ],
+    "effects": [
+      "Expansion of the national economy",
+      "Growth of regional specialization",
+      "Rise of a market-driven economy",
+      "Urbanization",
+      "Increase in immigration",
+      "Labor force shifts"
+    ]
+  },
+  {
+    "event": "Roaring 20s (1920–1929)",
+    "causes": [
+      "Post-World War I economic boom",
+      "Technological advances (cars, radios, cinema)",
+      "Prohibition leading to speakeasies",
+      "Cultural movements (Jazz Age, Harlem Renaissance)",
+      "New consumer culture and advertising"
+    ],
+    "effects": [
+      "Economic prosperity and mass consumerism",
+      "Cultural revolution (flappers, jazz)",
+      "Stock market speculation",
+      "Prohibition enforcement challenges",
+      "Rise of organized crime",
+      "Stock market crash leading to the Great Depression"
+    ]
+  },
+  {
+    "event": "Great Awakening (1730s–1740s)",
+    "causes": [
+      "Religious revivalism",
+      "Decline in religious fervor in colonial America",
+      "Emphasis on personal faith over tradition",
+      "Influence of preachers like Jonathan Edwards and George Whitefield"
+    ],
+    "effects": [
+      "Increase in religious enthusiasm",
+      "Rise of new religious denominations",
+      "Challenging of established church authority",
+      "Spread of democratic ideas",
+      "Strengthening of American identity"
+    ]
+  }
+]

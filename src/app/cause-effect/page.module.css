@@ -1,0 +1,160 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.inner-container {
+  width: 500px;
+  height: 600px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topic-title {
+  padding-left: 10px;
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.list-title {
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+.list-link {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1.25em;
+  transition: 0.3s;
+}
+.list-link:hover {
+  color: rgb(228, 191, 24);
+  transform: translateX(10px);
+}
+
+/*Chart CSS stuff (details)*/
+.details-container {
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(160, 54, 94));
+  width: 700px;
+  height: 600px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.1s;
+}
+.main-table {
+  width: 90%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.content-section {
+  display: flex;
+  align-items: start;
+}
+.event-title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.chart-content {
+  display: flex;
+  flex: 1;
+}
+.chart-side {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.chart-header {
+  width: 100%;
+  text-align: center;
+  font-size: 1.25em;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid white 2px;
+}
+.chart-side-content {
+  max-height: 400px;
+  overflow-y: overlay;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+.chart-side-content ul {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@keyframes spawn {
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cause-li {
+  overflow: hidden;
+}
+.cause-li span {
+  animation: spawn 0.3s forwards;
+  display: inline-block;
+  transform: translateY(-80%);
+  opacity: 0;
+}
+
+.effects-li {
+  overflow: hidden;
+}
+.effects-li span {
+  animation: spawn 1s forwards;
+  display: inline-block;
+  transform: translateY(-80%);
+  opacity: 0;
+}
+
+.close-btn {
+  font-size: 20px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  padding: 5px;
+  background: none;
+  border: none;
+  color: white;
+}
+.close-btn:hover {
+  color: rgb(119, 10, 3);
+}

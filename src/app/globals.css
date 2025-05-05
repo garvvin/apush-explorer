@@ -70,6 +70,13 @@ a {
 .nav-btn svg {
   width: 25px;
   height: 25px;
+  transition-duration: 0.3s;
+}
+.nav-btn:hover {
+  color: gray;
+}
+.nav-btn:hover svg {
+  width: 30px;
 }
 
 .nav-content-btn {
@@ -84,6 +91,7 @@ a {
   color: gray;
   transition-duration: 0.1s;
   cursor: pointer;
+  user-select: none;
 }
 .nav-content-btn:hover {
   background-color: #423c33;

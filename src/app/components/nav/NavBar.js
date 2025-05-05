@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export default function NavBar({ navOpen }) {
-  console.log(navOpen);
   return (
     <div className={"navbar nav-" + (navOpen ? "open" : "close")}>
       <Link href="/">
@@ -10,8 +9,11 @@ export default function NavBar({ navOpen }) {
       <Link href="/compare">
         <button className="nav-content-btn">Compare Contrasts</button>
       </Link>
-      <Link href="/cause">
+      <Link href="/cause-effect">
         <button className="nav-content-btn">Causes & Effects</button>
+      </Link>
+      <Link href="/court-cases">
+        <button className="nav-content-btn">Court Cases</button>
       </Link>
     </div>
   );
