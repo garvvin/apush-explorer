@@ -1,3 +1,21 @@
-export default function NavOverlay( {} ) {
-    
+"use client";
+import NavButton from "./NavButton";
+import NavBar from "./NavBar";
+import { useState } from "react";
+
+export default function NavOverlay({}) {
+  const [navOpen, setNavOpen] = useState(false);
+  const toggleNav = () => {
+    setNavOpen((prev) => !prev);
+  };
+
+  return (
+    <div
+      className="nav-overlay"
+      style={navOpen ? { width: "300px" } : { width: "0px" }}
+    >
+      <NavButton toggleNav={toggleNav} />
+      <NavBar navOpen={navOpen} />
+    </div>
+  );
 }

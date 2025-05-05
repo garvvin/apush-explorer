@@ -48,3 +48,63 @@ a {
 [data-title] {
   position: relative;
 }
+
+.nav-overlay {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.nav-btn {
+  color: white;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  padding: 5;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+.nav-btn svg {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-content-btn {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  width: calc(100% - 30px);
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  color: gray;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+.nav-content-btn:hover {
+  background-color: #423c33;
+  color: white;
+  width: calc(100% - 20px);
+  height: 55px;
+}
+
+.navbar {
+  width: 300px;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  transition-duration: 0.5s;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+.nav-open {
+  transform: translateX(0);
+}
+.nav-close {
+  transform: translateX(-100%);
+}
