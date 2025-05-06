@@ -1,0 +1,62 @@
+[
+  {
+    "case": "Marbury v. Madison",
+    "date": "1803",
+    "details": "Established judicial review, allowing courts to strike down unconstitutional laws."
+  },
+  {
+    "case": "McCulloch v. Maryland",
+    "date": "1819",
+    "details": "Confirmed federal supremacy over state laws and upheld the constitutionality of the national bank."
+  },
+  {
+    "case": "Gibbons v. Ogden",
+    "date": "1824",
+    "details": "Strengthened federal power over interstate commerce."
+  },
+  {
+    "case": "Dred Scott v. Sandford",
+    "date": "1857",
+    "details": "Declared African Americans were not citizens and invalidated the Missouri Compromise."
+  },
+  {
+    "case": "Plessy v. Ferguson",
+    "date": "1896",
+    "details": "Upheld racial segregation under the 'separate but equal' doctrine."
+  },
+  {
+    "case": "Schenck v. United States",
+    "date": "1919",
+    "details": "Limited free speech during wartime; introduced the 'clear and present danger' test."
+  },
+  {
+    "case": "Korematsu v. United States",
+    "date": "1944",
+    "details": "Upheld the internment of Japanese Americans during WWII as a national security measure."
+  },
+  {
+    "case": "Brown v. Board of Education",
+    "date": "1954",
+    "details": "Overturned Plessy v. Ferguson; ruled segregation in public schools unconstitutional."
+  },
+  {
+    "case": "Gideon v. Wainwright",
+    "date": "1963",
+    "details": "Guaranteed the right to an attorney for criminal defendants in state courts."
+  },
+  {
+    "case": "Miranda v. Arizona",
+    "date": "1966",
+    "details": "Required police to inform suspects of their rights upon arrest."
+  },
+  {
+    "case": "Roe v. Wade",
+    "date": "1973",
+    "details": "Legalized abortion nationwide under the right to privacy."
+  },
+  {
+    "case": "United States v. Nixon",
+    "date": "1974",
+    "details": "Limited executive privilege; led to Nixon’s resignation."
+  }
+]

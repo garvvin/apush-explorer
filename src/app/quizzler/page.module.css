@@ -1,0 +1,82 @@
+.main-container {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-card {
+  width: 700px;
+  height: 500px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(107, 32, 32));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prompt-label {
+  margin-top: 20px;
+}
+.prompt-input {
+  border-radius: 5px;
+  background-color: rgb(63, 30, 30);
+  color: white;
+  border: none;
+  outline: none;
+}
+.load-btn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: black;
+}
+.load-btn:active {
+  background-color: gray;
+}
+
+.prompt-input:focus {
+  background-color: rgb(85, 38, 38);
+}
+
+.question {
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 3em;
+}
+
+.choices-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.choice-btn {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 15px;
+}
+.choice-btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.feedback-container {
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}

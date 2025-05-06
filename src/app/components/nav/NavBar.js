@@ -15,6 +15,9 @@ export default function NavBar({ navOpen }) {
       <Link href="/court-cases">
         <button className="nav-content-btn">Court Cases</button>
       </Link>
+      <Link href="/quizzler">
+        <button className="nav-content-btn">Quizzler</button>
+      </Link>
     </div>
   );
 }

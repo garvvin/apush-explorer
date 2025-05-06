@@ -37,18 +37,47 @@
     "name": "Sugar and tobacco plantations develop in Caribbean and South America",
     "style": { "transform": "translateY(-120px)" }
   },
-  { "year": 1607, "name": "Jamestown founded" },
+  {
+    "year": 1607,
+    "name": "Jamestown founded"
+  },
   {
     "year": 1619,
     "name": "First Africans arrive in Virginia",
     "style": { "transform": "translateY(-100px)" }
   },
-  { "year": 1620, "name": "Pilgrims land at Plymouth" },
-  { "year": 1754, "name": "French and Indian War begins" },
+  {
+    "year": 1620,
+    "name": "Pilgrims land at Plymouth"
+  },
+  {
+    "year": 1630,
+    "name": "Massachusetts Bay Colony founded",
+    "style": { "transform": "translateY(-80px)" }
+  },
+  {
+    "year": 1676,
+    "name": "Bacon's Rebellion",
+    "style": { "transform": "translateY(-140px)" }
+  },
+  {
+    "year": 1730,
+    "name": "First Great Awakening begins",
+    "style": { "transform": "translateY(-60px)" }
+  },
+  {
+    "year": 1754,
+    "name": "French and Indian War begins"
+  },
   {
     "year": 1763,
     "name": "Treaty of Paris ends French and Indian War",
     "style": { "transform": "translateY(-100px)" }
+  },
+  {
+    "year": 1765,
+    "name": "Stamp Act passed",
+    "style": { "transform": "translateY(-120px)" }
   },
   {
     "year": 1770,
@@ -60,30 +89,97 @@
     "name": "Boston Tea Party",
     "style": { "transform": "translateY(-180px)" }
   },
-  { "year": 1775, "name": "Battles of Lexington and Concord" },
+  {
+    "year": 1774,
+    "name": "First Continental Congress",
+    "style": { "transform": "translateY(-160px)" }
+  },
+  {
+    "year": 1775,
+    "name": "Battles of Lexington and Concord"
+  },
   {
     "year": 1776,
     "name": "Declaration of Independence",
     "style": { "transform": "translateY(-100px)" }
   },
-  { "year": 1781, "name": "Battle of Yorktown" },
+  {
+    "year": 1781,
+    "name": "Battle of Yorktown"
+  },
   {
     "year": 1787,
     "name": "Constitutional Convention",
     "style": { "transform": "translateY(-100px)" }
   },
-  { "year": 1791, "name": "Bill of Rights ratified" },
-  { "year": 1803, "name": "Louisiana Purchase" },
-  { "year": 1812, "name": "War of 1812 begins" },
-  { "year": 1820, "name": "Missouri Compromise" },
-  { "year": 1830, "name": "Indian Removal Act" },
-  { "year": 1846, "name": "Mexican-American War begins" },
+  {
+    "year": 1791,
+    "name": "Bill of Rights ratified"
+  },
+  {
+    "year": 1793,
+    "name": "Cotton gin invented",
+    "style": { "transform": "translateY(-60px)" }
+  },
+  {
+    "year": 1800,
+    "name": "Revolution of 1800 (Jefferson elected)",
+    "style": { "transform": "translateY(-40px)" }
+  },
+  {
+    "year": 1803,
+    "name": "Louisiana Purchase"
+  },
+  {
+    "year": 1812,
+    "name": "War of 1812 begins"
+  },
+  {
+    "year": 1820,
+    "name": "Missouri Compromise"
+  },
+  {
+    "year": 1823,
+    "name": "Monroe Doctrine issued",
+    "style": { "transform": "translateY(-100px)" }
+  },
+  {
+    "year": 1830,
+    "name": "Indian Removal Act"
+  },
+  {
+    "year": 1831,
+    "name": "Nat Turner's Rebellion",
+    "style": { "transform": "translateY(-140px)" }
+  },
+  {
+    "year": 1846,
+    "name": "Mexican-American War begins"
+  },
+  {
+    "year": 1848,
+    "name": "Seneca Falls Convention",
+    "style": { "transform": "translateY(-160px)" }
+  },
   {
     "year": 1850,
     "name": "Compromise of 1850",
-    "style": { "transform": "translateY(-100px)" }
+    "style": { "transform": "translateY(-120px)" }
   },
-  { "year": 1854, "name": "Kansas-Nebraska Act" },
+  {
+    "year": 1852,
+    "name": "Uncle Tom's Cabin published",
+    "style": { "transform": "translateY(-80px)" }
+  },
+  {
+    "year": 1854,
+    "name": "Kansas-Nebraska Act"
+  },
+  {
+    "year": 1857,
+    "name": "Dred Scott decision",
+    "style": { "transform": "translateY(-120px)" }
+  },
   {
     "year": 1861,
     "name": "Civil War begins",
@@ -94,10 +190,52 @@
     "name": "Emancipation Proclamation",
     "style": { "transform": "translateY(-100px)" }
   },
-  { "year": 1865, "name": "Civil War ends / Lincoln assassinated" },
-  { "year": 1877, "name": "Compromise of 1877 ends Reconstruction" },
-  { "year": 1890, "name": "Wounded Knee Massacre" },
-  { "year": 1898, "name": "Spanish-American War" },
+  {
+    "year": 1865,
+    "name": "Civil War ends / Lincoln assassinated"
+  },
+  {
+    "year": 1870,
+    "name": "15th Amendment ratified",
+    "style": { "transform": "translateY(-100px)" }
+  },
+  {
+    "year": 1877,
+    "name": "Compromise of 1877 ends Reconstruction"
+  },
+  {
+    "year": 1882,
+    "name": "Chinese Exclusion Act",
+    "style": { "transform": "translateY(-140px)" }
+  },
+  {
+    "year": 1890,
+    "name": "Wounded Knee Massacre"
+  },
+  {
+    "year": 1896,
+    "name": "Plessy v. Ferguson",
+    "style": { "transform": "translateY(-120px)" }
+  },
+  {
+    "year": 1898,
+    "name": "Spanish-American War"
+  },
+  {
+    "year": 1901,
+    "name": "Theodore Roosevelt becomes president",
+    "style": { "transform": "translateY(-80px)" }
+  },
+  {
+    "year": 1906,
+    "name": "The Jungle published / Pure Food and Drug Act",
+    "style": { "transform": "translateY(-160px)" }
+  },
+  {
+    "year": 1913,
+    "name": "16th and 17th Amendments ratified",
+    "style": { "transform": "translateY(-100px)" }
+  },
   {
     "year": 1914,
     "name": "World War I begins in Europe",
@@ -108,26 +246,51 @@
     "name": "U.S. enters World War I",
     "style": { "transform": "translateY(-140px)" }
   },
-  { "year": 1919, "name": "Treaty of Versailles signed" },
+  {
+    "year": 1919,
+    "name": "Treaty of Versailles signed"
+  },
   {
     "year": 1920,
     "name": "19th Amendment ratified (Women's suffrage)",
     "style": { "transform": "translateY(-100px)" }
   },
-  { "year": 1929, "name": "Stock Market Crash / Great Depression begins" },
-  { "year": 1941, "name": "Pearl Harbor attack" },
+  {
+    "year": 1929,
+    "name": "Stock Market Crash / Great Depression begins"
+  },
+  {
+    "year": 1933,
+    "name": "New Deal begins under FDR",
+    "style": { "transform": "translateY(-120px)" }
+  },
+  {
+    "year": 1941,
+    "name": "Pearl Harbor attack"
+  },
+  {
+    "year": 1942,
+    "name": "Japanese internment begins (Executive Order 9066)",
+    "style": { "transform": "translateY(-160px)" }
+  },
   {
     "year": 1945,
     "name": "End of World War II",
     "style": { "transform": "translateY(-100px)" }
   },
-  { "year": 1954, "name": "Brown v. Board of Education" },
+  {
+    "year": 1954,
+    "name": "Brown v. Board of Education"
+  },
   {
     "year": 1963,
     "name": "March on Washington / MLK's 'I Have a Dream'",
     "style": { "transform": "translateY(-100px)" }
   },
-  { "year": 1964, "name": "Civil Rights Act passed" },
+  {
+    "year": 1964,
+    "name": "Civil Rights Act passed"
+  },
   {
     "year": 1968,
     "name": "Assassination of Martin Luther King Jr.",
@@ -138,8 +301,20 @@
     "name": "Nixon resigns after Watergate",
     "style": { "transform": "translateY(-100px)" }
   },
-  { "year": 1980, "name": "Reagan elected president" },
-  { "year": 1991, "name": "Cold War ends" },
-  { "year": 2001, "name": "9/11 Attacks" },
-  { "year": 2008, "name": "Election of Barack Obama" }
+  {
+    "year": 1980,
+    "name": "Reagan elected president"
+  },
+  {
+    "year": 1991,
+    "name": "Cold War ends"
+  },
+  {
+    "year": 2001,
+    "name": "9/11 Attacks"
+  },
+  {
+    "year": 2008,
+    "name": "Election of Barack Obama"
+  }
 ]
