@@ -3,7 +3,7 @@
 import styles from "../page.module.css";
 import { useState } from "react";
 
-export default function Quizzler() {
+export default function Quizzler({ setLoading }) {
   const [promptData, setPromptData] = useState("");
   const [questionData, setQuestionData] = useState({
     question: "",
@@ -15,30 +15,55 @@ export default function Quizzler() {
     ],
     correct: "",
   });
+  const [prevQuestions, setPrevQuestions] = useState([]);
   const [feedback, setFeedback] = useState("");
+
+  const getChoiceIndex = (choiceText, choices) => {
+    for (let i = 0; i < choices.length; i++) {
+      if (choices[i].choice == choiceText) {
+        return i;
+      }
+    }
+  };
 
   const generate = async () => {
     console.log(promptData);
     const res = await fetch("/api/generate-question", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ topic: promptData }),
+      body: JSON.stringify({ prevQuestions: prevQuestions, topic: promptData }),
     });
 
     const data = await res.json();
-    console.log(data.result);
-    console.log(JSON.parse(data.result));
-    setQuestionData(JSON.parse(data.result));
+
+    console.log(data);
+    const parsedData = JSON.parse(data.result);
+
+    setQuestionData(parsedData);
+    setPrevQuestions((prevPrevQ) => [
+      ...prevPrevQ,
+      `${parsedData.question} - Correct Choice Index: ${getChoiceIndex(
+        parsedData.correct,
+        parsedData.choices
+      )}`,
+    ]);
+    setLoading(false);
   };
 
   const onLoadClick = async () => {
     console.log("load clicked, generating");
+    setLoading(true);
     setFeedback("");
     generate();
   };
 
   const onChoiceClick = (answerChoice) => {
-    setFeedback(answerChoice.reason);
+    let fb = answerChoice.reason;
+    setFeedback(
+      (answerChoice.choice == questionData.correct
+        ? "Correct - "
+        : "Incorrect - ") + fb
+    );
   };
 
   return (

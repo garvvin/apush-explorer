@@ -6,13 +6,20 @@ import { useState } from "react";
 import PassOverlay from "../components/password/PassOverlay";
 import NavOverlay from "../components/nav/NavOverlay";
 import Quizzler from "./components/Quizzler";
+import LoadingOverlay from "../components/LoadingOverlay";
 
 export default function QuizzlerPage() {
   const [passed, setPassed] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   return (
     <>
-      {passed ? <Quizzler /> : <PassOverlay setPassed={setPassed} />}
+      <LoadingOverlay loading={loading} />
+      {passed ? (
+        <Quizzler setLoading={setLoading} />
+      ) : (
+        <PassOverlay setPassed={setPassed} />
+      )}
 
       <NavOverlay />
     </>
